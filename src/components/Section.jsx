@@ -77,14 +77,14 @@ const Section = () => {
 
       {/* 🔔 Toast Notification */}
       {showToast && (
-        <div className="fixed top-5 right-5 bg-green-500 text-white px-5 py-4 rounded-lg shadow-lg border-l-4 border-green-700 z-50 animate-slide-in">
+        <div className="fixed top-5 right-5 bg-black text-white px-5 py-4 rounded-lg shadow-lg border-l-4 border-red-500 z-50 animate-slide-in">
           <p className="font-semibold mb-2">
             Please login first to book tickets
           </p>
 
           <Link
             to="/login"
-            className="text-white underline text-sm font-semibold"
+            className="text-red-500 hover:underline text-sm font-semibold"
           >
             Go to Login →
           </Link>
